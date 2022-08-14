@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/internet_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="17dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        android:layout_margin="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/image_internet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/beelineinternetbak"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CDFFD600"
+                android:orientation="vertical"
+                android:layout_weight="0.5"
+                >
+
+                <TextView
+                    android:id="@+id/tv_internet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="27sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_narh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20.000 som"
+                    android:layout_weight="1"
+                    android:textSize="23sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_muddat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Oylik"
+                    android:layout_weight="1"
+                    android:textSize="23sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

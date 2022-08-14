@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="developer.abdulahad.bellineapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_hizmatlarFragment"
+            app:destination="@id/hizmatlarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hizmatlarFragment"
+        android:name="developer.abdulahad.bellineapp.HizmatlarFragment"
+        android:label="fragment_hizmatlar"
+        tools:layout="@layout/fragment_hizmatlar" >
+        <action
+            android:id="@+id/action_hizmatlarFragment_to_itemlarFragment"
+            app:destination="@id/itemlarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemlarFragment"
+        android:name="developer.abdulahad.bellineapp.ItemlarFragment"
+        android:label="fragment_itemlar"
+        tools:layout="@layout/fragment_itemlar" />
+    <fragment
+        android:id="@+id/yangiliklarFragment"
+        android:name="developer.abdulahad.bellineapp.YangiliklarFragment"
+        android:label="fragment_yangiliklar"
+        tools:layout="@layout/fragment_yangiliklar" >
+        <action
+            android:id="@+id/action_yangiliklarFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

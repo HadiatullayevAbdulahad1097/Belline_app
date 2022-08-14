@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_hizmatlar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        app:cardElevation="17dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="12dp"
+        app:cardBackgroundColor="#FFD600"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="150dp"
+                app:cardElevation="17dp"
+                android:background="#FFFFFF"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                >
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/beelineharajatlar"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_internet_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="23sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_narh_internet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20.000 som"
+                    android:layout_weight="1"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_muddat_internet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_weight="1"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_sms_internet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0 sms"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_daqiqa_internet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0 min"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

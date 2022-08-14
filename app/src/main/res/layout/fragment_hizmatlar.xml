@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HizmatlarFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/image_bac_obshiy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bacitem"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/image_bac_obshiy2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="#FBB321"
+            />
+
+        <ImageView
+            android:id="@+id/image_bac_obshiy3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="#FFD600"
+            />
+
+        <ImageView
+            android:id="@+id/image_bac_obshiy4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/rang_internet"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_obshiy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/sms_item"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#A5A4A4"
+    tools:context=".YangiliklarFragment"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_hizmatlar1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        app:cardElevation="17dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="12dp"
+        app:cardBackgroundColor="#FFE03C"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="150dp"
+                app:cardElevation="17dp"
+                android:background="#FFFFFF"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="23dp"
+                >
+                <ImageView
+                    android:id="@+id/profile_image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/supersovrin"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/tv_internet_name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="150.000.000"
+                    android:textSize="23sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/tv_narh_internet2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="bosh sovrin"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+        android:id="@+id/card_hizmatlar2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        app:cardElevation="17dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="12dp"
+        app:cardBackgroundColor="#FFE03C"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="150dp"
+                app:cardElevation="17dp"
+                android:background="#FFFFFF"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="23dp"
+                >
+                <ImageView
+                    android:id="@+id/profile_image3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kungijumamuborak"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/tv_internet_name3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Juma Muborak"
+                    android:textSize="23sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/tv_narh_internet3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Takliflar"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+        android:id="@+id/card_hizmatlar3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        app:cardElevation="17dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="12dp"
+        app:cardBackgroundColor="#FFE03C"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="150dp"
+                app:cardElevation="17dp"
+                android:background="#FFFFFF"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="23dp"
+                >
+                <ImageView
+                    android:id="@+id/profile_image4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/konstruktorpro"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/tv_internet_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Konstruktor pro"
+                    android:textSize="23sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/tv_narh_internet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tarifingizni toplang"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_chiqish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chiqish"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#F89C57"
+        />
+
+</LinearLayout>
